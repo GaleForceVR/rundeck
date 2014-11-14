@@ -3,7 +3,7 @@ class CreateSplits < ActiveRecord::Migration
     create_table :splits do |t|
       t.belongs_to  :completed_route
       t.integer     :distance
-      t.time        :time
+      t.integer     :time
 
       t.timestamps
     end
